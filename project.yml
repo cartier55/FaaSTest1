@@ -1,0 +1,14 @@
+packages:
+  - name: test-slack-2
+    shared: false
+    environment: {}
+    parameters: {}
+    functions:
+      - name: test
+        main: ""
+        runtime: python:default
+        web: true
+        environment:
+          APP_OAUTH: ""
+          TEAM_ID: ""
+          TOKEN: ""
